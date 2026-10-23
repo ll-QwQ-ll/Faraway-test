@@ -1,0 +1,214 @@
+# Replit Prompt: Redesign the Existing Faraway Homepage Based on My Reference Files
+
+## 1. Main Objective
+
+I want you to redesign **ONLY the homepage of my existing Faraway website**.
+
+I will provide reference files containing the homepage design and layout that I want. Your primary task is to study these files carefully and transform the homepage of my existing website so that its **visual design, section structure, content hierarchy, layout, spacing, and overall presentation closely follow the provided reference homepage**.
+
+The reference files are the main design source of truth. Do not simply use them as loose inspiration.
+
+However, do not blindly copy the original text. Adapt the content to fit Faraway, our AI-powered career exploration and future intelligence platform, while preserving the reference design's overall visual identity and layout.
+
+**Important:** This is a homepage redesign, not a complete website rebuild.
+
+## 2. Before Making Changes
+
+Before editing any code:
+
+1. Inspect the entire existing project structure.
+2. Identify the current homepage entry point, framework, styling system, components, assets, and routing.
+3. Open and examine all provided reference files, especially the reference homepage.
+4. Identify the reference homepage's section order, layout patterns, typography, visual effects, imagery, background treatments, and interactive elements.
+5. Map each reference section to suitable Faraway content.
+6. Preserve the existing project architecture and working functionality wherever possible.
+
+Do not replace the existing project with a generic template. Do not delete existing features, routes, assets, or components unnecessarily.
+
+If a reference file cannot be opened or its design cannot be inspected, do not pretend you have examined it. Work with the available files and explain any limitation.
+
+## 3. Follow the Reference Homepage Closely
+
+Recreate the reference homepage's overall presentation as faithfully as reasonably possible, including:
+
+- The same overall layout and section arrangement.
+- Similar proportions, alignment, spacing, and content density.
+- Similar headline placement, font hierarchy, and text grouping.
+- Similar card, panel, navigation, and button arrangements where applicable.
+- Similar background composition, decorative elements, and visual depth.
+- Similar image placement, cropping, and proportions.
+- Similar scrolling experience and transitions between sections.
+- Similar responsive behavior on desktop, tablet, and mobile.
+
+Adapt colors, copywriting, illustrations, and other details where necessary to fit the Faraway brand.
+
+Do not arbitrarily invent a completely different homepage layout. When a reference section has a distinctive composition, preserve that composition instead of replacing it with a standard AI landing-page template.
+
+## 4. Faraway Brand and Product Content
+
+Faraway is an AI-powered career exploration and future intelligence platform.
+
+The website helps users:
+
+- Understand and evaluate their existing skills.
+- Discover suitable careers based on their skills, interests, and strengths.
+- Explore alternative career pathways.
+- Understand potential future changes in careers and skills.
+- Make more informed decisions about learning and career development.
+
+The brand should communicate discovery, possibility, personal growth, and the future.
+
+Use natural, concise, professional English. Keep the content engaging and easy to understand.
+
+Suggested homepage hero copy:
+
+**Main headline:**
+"Your Future Is Further Than You Think."
+
+**Supporting text:**
+"Discover your strengths, explore career possibilities, and understand how the world of work may evolve with AI-powered insights."
+
+**Primary CTA:**
+"Discover Your Potential"
+
+**Secondary CTA:**
+"Explore Future Careers"
+
+These are suggested starting points. Adjust the wording and placement to fit the reference design.
+
+Avoid excessive text, generic marketing phrases, repetitive headings, or unsupported claims about AI accuracy.
+
+Do not claim that Faraway can predict an individual's future with certainty. Describe future career information as forecasts, scenarios, insights, or possibilities where appropriate.
+
+## 5. Add a Dedicated SDGs Introduction Section
+
+The redesigned homepage MUST include a clear and visually integrated section introducing the **United Nations Sustainable Development Goals (SDGs)** and the mission of the SDC (Sustainably Developing Code) AI Hackathon.
+
+This is an important requirement, not an optional addition.
+
+Place the SDGs section where it fits naturally within the reference homepage's existing structure. Preserve the reference's overall visual rhythm while making the SDGs content easy to discover and understand.
+
+### Section title
+
+**About the SDGs & Our Mission**
+
+### Introductory text
+
+"At the SDC (Sustainably Developing Code) AI Hackathon, we believe that great code not only solves today's problems but also helps shape a better future.
+
+More than a technical challenge, this competition encourages participants to address real-world challenges through artificial intelligence, creative thinking, and meaningful innovation. By connecting technology with the United Nations' 17 Sustainable Development Goals (SDGs), we aim to inspire solutions that create lasting social and environmental value."
+
+### Three key themes
+
+**01 — Focus on Real-World Challenges**
+
+"From climate action and clean energy to quality education, good health and well-being, and reduced inequalities, we encourage participants to use technology to address the world's most pressing challenges."
+
+**02 — Empower Sustainability Through Code**
+
+"Transform AI technologies, including large language models, machine learning, and data analytics, into practical digital solutions that create meaningful social value."
+
+**03 — Co-Create a Green and Inclusive Future**
+
+"Bridge the gap between technology and real-world needs. We believe innovation should go beyond technical achievement to serve people, communities, and the sustainable development of our planet."
+
+### Closing statement
+
+"Join us in sparking sustainable innovation with artificial intelligence and building a better tomorrow through technology!"
+
+### Visual and content requirements
+
+- Make the SDGs section feel like a deliberate part of the homepage, not an unrelated block added at the bottom.
+- Use a clear visual hierarchy for the introduction, three themes, and closing statement.
+- Use the official United Nations SDG icons or other authentic SDG assets if available and permitted.
+- If official assets are unavailable, use clean, consistent visual representations without inventing official logos.
+- If suitable reference sections use cards, illustrations, timelines, or interactive layouts, adapt those patterns for the three SDG themes.
+- Keep the text readable and concise on smaller screens.
+- Do not imply that Faraway itself is an official United Nations initiative. Clearly identify the SDG content as part of the SDC AI Hackathon's mission.
+
+Preserve the meaning of the provided SDG introduction while making small copywriting adjustments for readability and visual fit.
+
+## 6. Visual Quality and Interaction
+
+The final homepage should feel polished, modern, and intentional.
+
+Retain the existing Faraway brand direction where it does not conflict with the reference design:
+
+- A clean, predominantly white background.
+- Very subtle pastel rainbow or aurora-like light effects.
+- Elegant flowing visual elements that suggest exploration and possibility.
+- A refined, futuristic aesthetic with restrained translucent 3D depth.
+- Soft gradients and atmospheric lighting used sparingly.
+- Smooth, purposeful transitions and micro-interactions.
+
+If the reference homepage has a different established visual direction, prioritize its composition and adapt the Faraway visual details to complement it.
+
+Add meaningful interactions where appropriate, such as:
+
+- Subtle hover responses on buttons and cards.
+- Smooth reveal animations as sections enter the viewport.
+- Gentle movement in decorative elements.
+- Pointer-responsive visual effects on suitable desktop elements.
+- Smooth transitions between homepage sections.
+- Clear visual feedback for clickable elements.
+
+Animations should enhance the experience rather than distract from the content. Avoid excessive movement, heavy effects that reduce readability, unnecessary loading screens, and animations that cause performance problems.
+
+Respect reduced-motion accessibility preferences and ensure the website remains usable without animations.
+
+## 7. Functional Requirements
+
+All visible interactive elements must work correctly.
+
+- Navigation links must lead to valid destinations.
+- CTA buttons must perform meaningful actions using existing routes or functionality wherever possible.
+- If an appropriate destination does not exist, do not create a misleading button that appears functional but does nothing.
+- Preserve existing authentication, assessment, career exploration, and other working functionality.
+- Do not fabricate backend integrations, assessment results, statistics, or AI capabilities.
+- Do not break existing routing or shared components.
+- Ensure the homepage renders without console errors.
+
+## 8. Technical and Responsive Requirements
+
+- Work within the existing framework and coding conventions.
+- Reuse existing components and assets when appropriate.
+- Avoid unnecessary dependencies.
+- Avoid duplicating components or introducing conflicting CSS.
+- Ensure responsive layouts at desktop, tablet, and mobile sizes.
+- Prevent horizontal overflow, overlapping text, clipped buttons, and broken layouts.
+- Maintain accessible color contrast, readable typography, and appropriate semantic HTML.
+- Optimize animations and visual effects for performance.
+
+## 9. Scope Control
+
+For this iteration, modify the homepage only.
+
+Do not redesign every other page yet. Keep the existing internal pages and their current styling and functionality intact as much as possible.
+
+Shared components may be adjusted only when necessary for the homepage, and changes must not unintentionally break other pages.
+
+The goal is to establish a strong, reference-aligned homepage first. We will review the result before deciding whether to apply the same visual direction across the rest of the website.
+
+## 10. Final Verification
+
+After implementation:
+
+1. Run the project and inspect the actual rendered homepage.
+2. Compare the result against the supplied reference homepage.
+3. Correct major differences in layout, spacing, proportions, typography, and visual hierarchy.
+4. Verify that the SDGs section is present and all three themes are included.
+5. Test desktop and mobile layouts.
+6. Test all visible homepage links and buttons.
+7. Check for console errors, missing assets, broken routes, and obvious performance issues.
+8. Make a final refinement pass instead of stopping at the first working version.
+
+Do not stop after producing a rough mockup or a basic functional page.
+
+The final result should be a polished, working homepage that closely follows my provided reference files, communicates Faraway's purpose clearly, and integrates the SDC AI Hackathon's SDG mission naturally.
+
+When finished, summarize:
+- Which homepage sections were changed.
+- How the reference layout was applied.
+- Where and how the SDGs introduction was integrated.
+- Which existing features and routes were preserved.
+- Any remaining limitations or items requiring my review.

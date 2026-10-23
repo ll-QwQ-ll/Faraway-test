@@ -1,0 +1,42 @@
+# Project Vision & Context
+You are tasked with redesigning and building an AI-driven education web application named **"Faraway"**. 
+We are moving away from dark, heavy tech themes or generic colorful templates. Instead, the design must be **clean, precise, futuristic, mature, and highly interactive**, yet ethereal and AI-driven.
+
+## Core Design & Visual Language
+1. **Background:** 
+   - Pristine, clean **pure white** (`#FFFFFF`) across the major layout.
+   - **Subtle Ambient Effect:** Occasionally, extremely soft, ethereal, and faint pastel rainbow light leaks/aurora gradients drift slowly across the background to give a subtle sense of depth and life, never overwhelming the clean white canvas.
+2. **Icons & AI Elements (The Spectrum Engine):**
+   - **Rainbow Flowing Strokes:** Icons feature continuous rainbow spectrum gradients that flow and move along the icon contours (like active AI computation), rather than static colors.
+   - **Interactive Mouse Responsiveness:** Icons and core UI elements dynamically respond to the user's mouse position (tilt, gradient shift, or slight magnetic attraction).
+   - **Translucent 3D Depth:** Subtle glassmorphism, depth layers, and clean shadows give elements a premium, tactile 3D feel without heavy neon glow.
+3. **Animations & Interactivity:**
+   - **High Interactivity:** Hover, click, and drag states trigger rich visual feedback.
+   - **Micro-interactions:** Icons feature fluid transformations, particle aggregation, or active spectrum scanning when AI features are engaged.
+   - **Scroll-driven Rhythm:** Content reveals smoothly and responsively as the user scrolls through the page.
+
+---
+
+## Assets Provided & Reference Materials
+You will find the following attached files in the workspace:
+1. **Original Website ZIP (`.zip`):** Base structure and codebase to reference or refactor.
+2. **Interface Documentation (`docs`):** Detailed specifications of interface content and functional modules.
+3. **Presentation Deck (`.pptx`):** **Strictly follow the layout, section flow, and hierarchical structure provided in this presentation.**
+4. **Logo (`transparent gold logo`):** Integrate the transparent gold logo seamlessly into the header/navigation and brand touchpoints while matching the clean white aesthetic.
+
+---
+
+## Mandatory Structural & Functional Requirements
+1. **Layout & Flow:** Strictly follow the structural layout and section ordering defined in the provided `.pptx` file.
+2. **SDG Section (Crucial):** The section dedicated to **SDG (Sustainable Development Goals)** from the original project **MUST BE FULLY RETAINED**, redesigned to match the new clean white, high-interactivity, and flowing spectrum visual style.
+3. **Branding:** The brand name is **Faraway**. It should feel ethereal, fluid, elegant, and deeply intelligent.
+4. **Interactive AI Demos:** Build interactive components where users can experience AI functionality directly (e.g., submitting inputs to trigger particle aggregation and spectrum-scanning result generation).
+
+---
+
+## Technical Execution Guidelines
+- **Framework & Styling:** Use modern frontend tools (e.g., React/Next.js, Tailwind CSS, Framer Motion or Canvas/Three.js where appropriate for fluid particle effects and mouse tracking).
+- **SVG & Path Animation:** Implement SVG path animations, dynamic gradient strokes, and smooth CSS/JS transitions for the flowing rainbow icon effects.
+- **Performance:** Ensure silky-smooth 60fps animations for mouse interactions and scrolling without sacrificing clean typography and readable layout structure.
+
+Please inspect all uploaded files (ZIP, docs, PPTX, and gold logo) first, map out the layout according to the PPTX, and build the completely overhauled **Faraway** application adhering strictly to this futuristic, clean white, rainbow-flowing interactive style.

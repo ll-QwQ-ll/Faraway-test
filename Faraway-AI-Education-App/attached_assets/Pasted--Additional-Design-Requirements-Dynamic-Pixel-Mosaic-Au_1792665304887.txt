@@ -1,0 +1,192 @@
+# Additional Design Requirements: Dynamic Pixel-Mosaic Aurora, Interactive Lighting & Futuristic Typography
+
+These requirements are essential extensions to the existing homepage redesign. Apply them to the current Faraway homepage while preserving the supplied reference layout, the SDGs section, and existing functionality.
+
+## 1. Core Visual Direction: Pixel-Mosaic Aurora
+
+I want the website to feel like an elegant, futuristic digital universe, combining flowing rainbow light, pixel-mosaic textures, AI-inspired visuals, and subtle 3D depth.
+
+The key visual concept is:
+
+**Pixel-Mosaic Aurora × Fluid Rainbow Light × Interactive AI Interface**
+
+The effect should feel fluid, atmospheric, responsive, and immersive, rather than like a static rainbow gradient or a conventional neon gaming website.
+
+Keep the overall page predominantly white, light, and airy. Use pastel rainbow colors such as lavender, cyan, sky blue, pink, and soft iridescent hues. Add slightly more saturated colors in selected interactive areas to create visual contrast.
+
+## 2. Create a More Dynamic Mosaic Rainbow Background
+
+Upgrade the existing background into a continuously evolving pixel-mosaic rainbow environment.
+
+Requirements:
+
+- Create flowing bands of rainbow light that slowly drift, bend, stretch, and change shape.
+- Combine soft gradient lighting with a subtle pixelated or mosaic texture.
+- Make the mosaic blocks feel connected to the movement of the light, rather than appearing as an unrelated static grid.
+- Let colors transition smoothly between adjacent regions.
+- Use multiple layers of light with different sizes, directions, speeds, and levels of transparency.
+- Occasionally allow faint rainbow light to travel across the background.
+- Introduce subtle depth through layered blur, transparency, and parallax.
+- Allow the effect to extend naturally behind selected hero elements, cards, headings, and section transitions.
+- Preserve sufficient contrast so that text remains readable.
+
+The background should feel alive even when the user is not interacting with the page. However, movement should remain elegant and controlled, not chaotic or distracting.
+
+Avoid making the entire page look like a large, blurry gradient. The pixel-mosaic texture should be visible enough to establish a distinctive visual identity.
+
+## 3. Mouse-Responsive Pixel-Mosaic Light Effects
+
+Implement a real pointer-responsive lighting system.
+
+When the user moves the mouse across the page:
+
+- A soft rainbow light field should follow the pointer with smooth, slightly delayed movement.
+- The light should diffuse and fade naturally instead of behaving like a rigid cursor spotlight.
+- Near the pointer, subtle mosaic squares should become brighter, shift color, or reveal a stronger iridescent glow.
+- Nearby pixels may respond with gentle changes in brightness, opacity, or position.
+- Create a layered effect in which the light field, mosaic texture, and background gradients respond at slightly different speeds.
+- Let selected cards, decorative elements, and glass-like surfaces react subtly when the pointer approaches or moves over them.
+- Use gentle magnetic or parallax movement on selected decorative elements, while keeping important text and controls stable.
+
+The pointer interaction should feel like the user is influencing a responsive digital light field.
+
+**Important implementation detail:** The lighting must respond continuously to the actual pointer position. Do not implement this as a simple hover color change or a fixed animation that only looks interactive.
+
+Use an efficient implementation suitable for the existing framework. CSS gradients, CSS masks, transforms, requestAnimationFrame where appropriate, or a lightweight canvas/WebGL solution may be considered after inspecting the existing project.
+
+Avoid adding a heavy graphics engine unless it provides a clear benefit.
+
+On touchscreens, where a mouse pointer is unavailable, use a slower ambient animation and optional touch-responsive effects. Do not require users to move a pointer to experience the design.
+
+## 4. Futuristic Pixel-Inspired Typography
+
+Change the current website typography to a more futuristic, technology-inspired style.
+
+I do not want every character to become a crude, blocky retro-game pixel font. Instead, combine modern futuristic typography with subtle digital pixel characteristics.
+
+### Headings
+
+Use a distinctive futuristic display font featuring some of these qualities:
+
+- Geometric letterforms.
+- Clean, engineered shapes.
+- Slightly squared or modular details.
+- Contemporary AI and digital-product aesthetics.
+- Strong headline hierarchy and carefully controlled letter spacing.
+- Occasional pixel-inspired decorative treatments.
+
+The main hero heading should feel visually striking and recognizable, with typography that complements the flowing mosaic rainbow background.
+
+### Body text
+
+Use a highly readable modern sans-serif font for paragraphs, navigation, forms, and longer content.
+
+Keep the body font comfortable to read at normal desktop and mobile sizes. Do not apply pixel distortion, excessive letter spacing, or glitch effects to long paragraphs.
+
+### Pixel-inspired typography effects
+
+Where appropriate, introduce subtle visual details such as:
+
+- Small square pixels appearing near selected heading edges.
+- Gradient or iridescent highlights on a few important words.
+- A controlled pixel-reveal animation when a heading first enters the viewport.
+- Slightly segmented decorative lettering for short labels, counters, or category markers.
+- A restrained digital-grid motif around selected titles.
+
+Keep these treatments selective. The typography must still look premium, professional, and suitable for an AI career exploration platform.
+
+Use a suitable web font if necessary, preferably a reliable and properly licensed font with good Latin character coverage. Avoid unnecessary external font dependencies if an appropriate font is already available locally.
+
+If a pixel-inspired font is used, reserve it for short display text, small labels, or decorative elements. Never sacrifice readability for the visual effect.
+
+## 5. Stronger Motion Design and Interaction
+
+Increase the quality and depth of homepage animations.
+
+### Hero section
+
+Create a distinctive opening experience in which the headline, supporting text, CTA buttons, and decorative visuals appear in a coordinated sequence.
+
+Possible effects include:
+
+- A gradual light-field reveal.
+- A subtle pixel-dissolve or mosaic-reveal effect on selected text.
+- Rainbow light flowing behind the main headline.
+- Layered elements moving at slightly different speeds.
+- A gentle floating motion in selected decorative 3D elements.
+- Smooth transitions from the hero into the next section.
+
+The opening should be memorable without forcing users to wait through a long intro animation.
+
+### Interactive cards and buttons
+
+Improve the responsiveness of the homepage's existing interactive elements.
+
+- Cards should respond naturally to pointer movement.
+- Use subtle 3D tilt only where it adds value.
+- Add soft rainbow edge lighting or a moving gradient border on selected elements.
+- Give buttons smooth hover transitions, a restrained light sweep, and clear pressed states.
+- Use consistent easing and timing across related components.
+- Avoid applying every effect to every component. Create a coherent motion system with visual hierarchy.
+
+### Scroll-based transitions
+
+As the user scrolls:
+
+- Reveal sections with smooth opacity and position transitions.
+- Allow selected mosaic patterns or light bands to drift between sections.
+- Use subtle parallax for background decoration.
+- Coordinate heading and card reveals so that the page feels connected.
+- Keep the SDGs section visually integrated with the rest of the homepage.
+
+Do not animate every element independently. The overall experience should feel intentional and cinematic rather than cluttered.
+
+## 6. Refined Glass and 3D Depth
+
+Use translucent 3D styling selectively to complement the mosaic light effects.
+
+Examples include:
+
+- Soft translucent surfaces.
+- Subtle iridescent borders.
+- Layered cards with gentle depth.
+- Delicate light reflections that respond to the pointer.
+- Soft ambient shadows.
+- Transparent decorative shapes that overlap flowing rainbow light.
+
+Maintain the white, airy appearance of the website. Avoid excessive glassmorphism, thick glowing outlines, dark backgrounds, or oversaturated neon colors.
+
+## 7. Technical Performance and Accessibility
+
+The effects must work in the actual website, not just in a static mockup.
+
+- Prefer transform and opacity animations when practical.
+- Avoid expensive full-page filters and unnecessarily large canvas redraws.
+- Keep pointer tracking smooth and avoid excessive React state updates on every pointer movement.
+- Clean up event listeners and animation loops correctly.
+- Pause or reduce nonessential animation when the page is not visible.
+- Respect `prefers-reduced-motion`.
+- Ensure all interactive controls remain accessible by keyboard.
+- Keep text contrast and readability intact.
+- Prevent visual effects from blocking clicks, selections, scrolling, or form interaction.
+- Disable or simplify expensive effects on lower-powered devices.
+- Make sure the homepage still looks attractive if animations are unavailable.
+
+## 8. Final Visual Quality Check
+
+After implementing these changes, run the actual website and inspect the results.
+
+Verify that:
+
+1. The rainbow mosaic background visibly changes over time.
+2. The pointer produces a smooth, localized, gradient-mosaic light response.
+3. The pixel texture remains visible without overwhelming the page.
+4. The heading typography looks futuristic but remains readable.
+5. Motion is smooth and consistent across the homepage.
+6. The reference homepage's layout and the SDGs content remain intact.
+7. The design works on desktop and mobile.
+8. Existing links, buttons, and routes still function.
+
+Do not settle for a static gradient, a basic cursor-following circle, or a generic animated landing page.
+
+The final result should feel like a distinctive, living digital environment designed specifically for Faraway: fluid, pixel-inspired, futuristic, immersive, and refined.

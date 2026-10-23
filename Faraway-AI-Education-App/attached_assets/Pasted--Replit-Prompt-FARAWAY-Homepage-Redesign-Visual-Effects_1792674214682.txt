@@ -1,0 +1,400 @@
+# Replit Prompt: FARAWAY Homepage Redesign, Visual Effects & Career Comparison Updates
+
+## 1. Main Objective
+
+Redesign **ONLY the homepage of my existing FARAWAY website** based on the homepage design files and visual reference photos I provide.
+
+The reference homepage files define the desired layout, section structure, content hierarchy, proportions, and overall presentation. The visual reference photos define the desired visual style, including transparent glass, rainbow micro-mosaic textures, subtle 3D depth, futuristic typography, and dynamic lighting effects.
+
+This is an enhancement of my existing website, not a complete rebuild.
+
+Preserve the existing project architecture, routes, components, functionality, data sources, and working features wherever possible.
+
+In addition to the homepage redesign, implement the two specific changes described below:
+1. Replace the right-side logo card in the homepage hero section with an automatically rotating career-themed photo showcase.
+2. Correct the career data comparison structure to compare Current vs. Moderate and Current vs. Fast.
+
+## 2. Before Making Changes
+
+Before editing any code:
+
+1. Inspect the existing project structure, framework, styling system, homepage entry point, components, assets, and routing.
+2. Examine all supplied reference files and reference photos.
+3. Identify the original homepage's section order, layout, typography, background treatments, interactive elements, and visual effects.
+4. Locate the existing hero section and identify the logo card on its right side.
+5. Inspect the existing career comparison interface, data model, scenario definitions, formulas, charts, and related components.
+6. Identify the existing SDGs content, if any, and determine how to integrate the required introduction.
+7. Plan the changes before implementing them.
+
+Do not replace the project with a generic template. Do not remove existing features, routes, assets, or components unnecessarily.
+
+If any supplied reference file cannot be opened, state the limitation rather than pretending it has been inspected.
+
+## 3. Follow the Reference Homepage Closely
+
+Recreate the reference homepage's overall presentation as faithfully as reasonably possible.
+
+Pay particular attention to:
+
+- Section order and overall composition.
+- Layout proportions, alignment, spacing, and content density.
+- Headline placement, typography hierarchy, and text grouping.
+- Navigation, cards, panels, buttons, and other interface arrangements.
+- Background composition, decorative details, and visual depth.
+- Image placement, cropping, and proportions.
+- Scrolling experience and transitions between sections.
+- Responsive behavior on desktop, tablet, and mobile.
+
+Adapt content and visual details to the FARAWAY brand where necessary, but do not arbitrarily invent a different homepage layout.
+
+The reference homepage is the primary source of truth for structure and composition. The reference photos are the primary source of truth for visual style and effects.
+
+## 4. FARAWAY Brand and Slogan
+
+FARAWAY is an AI-powered career exploration and future intelligence platform.
+
+It helps users understand their existing skills, discover suitable careers, explore alternative career pathways, and understand potential changes in careers and skills as AI develops.
+
+The brand should communicate discovery, possibility, personal growth, and the future of work.
+
+### Required slogan
+
+Use this exact slogan:
+
+**“Where Possibilities Take You.”**
+
+This is the selected brand slogan. Do not substitute it with another slogan or display a competing primary slogan.
+
+Use natural, concise, professional English throughout the homepage.
+
+Avoid repetitive marketing language, excessive text, and unsupported claims about AI accuracy. Describe future career information as forecasts, scenarios, insights, or possibilities rather than guaranteed predictions.
+
+## 5. Visual Direction: Transparent Glass + Rainbow Micro-Mosaic
+
+Use the supplied visual reference photos to reproduce the intended visual style as closely as reasonably possible.
+
+The overall visual direction combines:
+
+- Transparent glass textures and translucent surfaces.
+- Subtle glass-like 3D depth and light refraction.
+- Rainbow micro-mosaic patterns and delicate iridescent color details.
+- Soft pastel rainbow lighting, including lavender, cyan, sky blue, pink, and other subtle iridescent hues.
+- Flowing light bands and faint ambient color transitions.
+- Futuristic, technology-inspired visual details.
+- Refined motion, gentle parallax, and understated interactive effects.
+- A clean, predominantly white and light-colored appearance.
+
+The colors and lighting in the references are intentionally soft and subtle. Reproduce this delicate appearance rather than creating an oversaturated neon or cyberpunk interface.
+
+Keep the glass effects elegant and restrained. Use translucent surfaces, subtle reflections, delicate borders, and soft shadows to create depth without overwhelming the content.
+
+## 6. Dynamic Pixel-Mosaic Aurora Background
+
+Create an animated rainbow micro-mosaic environment that reflects the supplied visual references.
+
+Requirements:
+
+- Create flowing bands of soft rainbow light that slowly drift, bend, stretch, and change shape.
+- Combine subtle gradient lighting with a visible but delicate pixel-mosaic texture.
+- Let the mosaic pattern interact visually with the light instead of appearing as an unrelated static grid.
+- Use multiple layers of light with slightly different movement speeds, directions, transparency, and depth.
+- Allow faint rainbow light to travel across selected areas of the background.
+- Introduce gentle parallax and layered depth where appropriate.
+- Allow the effects to extend naturally behind selected hero elements, cards, headings, and section transitions.
+- Preserve sufficient contrast so that text remains readable.
+
+The background should feel alive even when the user is not interacting with the website, but the movement must remain soft, smooth, and controlled.
+
+Do not reduce the mosaic effect to a generic blurry rainbow gradient. The distinctive micro-mosaic texture should remain perceptible, consistent with the reference photos.
+
+## 7. Mouse-Responsive Lighting and Interactions
+
+Implement genuine pointer-responsive lighting based on the user's actual mouse position.
+
+When the user moves the mouse:
+
+- A soft rainbow light field should follow the pointer with smooth, slightly delayed movement.
+- The lighting should diffuse naturally rather than behaving like a rigid spotlight.
+- Nearby mosaic pixels may brighten, shift color, or reveal a stronger iridescent glow.
+- Different visual layers may respond at slightly different speeds to create subtle depth.
+- Selected glass surfaces and cards may respond gently to pointer movement.
+- Selected decorative elements may use restrained parallax or subtle 3D movement.
+
+The interaction must respond continuously to the actual pointer position, rather than being a fixed animation or a simple hover color change.
+
+Use an efficient implementation appropriate to the existing framework. CSS gradients, masks, transforms, or a lightweight canvas implementation may be used where appropriate.
+
+Avoid unnecessarily heavy graphics engines or expensive calculations.
+
+On touchscreens, use ambient movement and optional touch-responsive effects where appropriate. The design must remain visually complete without mouse interaction.
+
+## 8. Futuristic Typography
+
+Use a contemporary, technology-inspired typography system that complements the reference photos.
+
+### Headings
+
+Use distinctive geometric or futuristic display typography with clean shapes, carefully controlled letter spacing, and subtle digital or pixel-inspired details.
+
+The main hero heading should feel recognizable and visually striking without compromising readability.
+
+### Body text
+
+Use a clean, highly readable modern sans-serif font for paragraphs, navigation, forms, buttons, and longer content.
+
+Do not apply pixel distortion, excessive letter spacing, or glitch effects to body text.
+
+### Decorative typography
+
+Where appropriate, use restrained effects such as:
+
+- Small pixel details around selected heading edges.
+- Subtle iridescent highlights on important words.
+- Controlled mosaic-reveal animations for selected headings.
+- Pixel-inspired details on short labels or category markers.
+
+Keep these treatments selective and consistent with the supplied references.
+
+Use an appropriate, properly licensed font if needed, preferably reusing existing fonts where suitable.
+
+## 9. Motion Design and Glass-Like 3D Depth
+
+Enhance the homepage with smooth, coordinated animations.
+
+### Hero section
+
+Create a polished opening experience using subtle, coordinated appearances for the headline, supporting text, CTA buttons, and decorative visuals.
+
+Possible effects include gentle light reveals, mosaic transitions, flowing background light, layered motion, and restrained floating 3D elements.
+
+Do not force users to wait through a long intro animation.
+
+### Cards and buttons
+
+Where appropriate, add:
+
+- Subtle pointer-responsive movement.
+- Restrained 3D tilt.
+- Soft rainbow edge lighting.
+- Gentle moving gradient borders.
+- Smooth hover and pressed states.
+
+### Scroll transitions
+
+Use smooth section reveals, subtle background parallax, and coordinated transitions between homepage sections.
+
+Do not animate every element independently. Maintain a coherent motion system and clear visual hierarchy.
+
+### Glass and depth
+
+Use translucent surfaces, delicate iridescent borders, subtle reflections, layered cards, and soft ambient shadows where appropriate.
+
+The result should feel slightly three-dimensional, elegant, and futuristic rather than heavily extruded or visually cluttered.
+
+## 10. Replace the Right-Side Hero Logo Card with a Career Photo Slideshow
+
+Replace the existing logo card on the **right side of the homepage hero section** with an automatically rotating career-themed photo showcase.
+
+This is a specific requested homepage change.
+
+### Image content
+
+Use high-quality photographs relevant to FARAWAY's AI-powered career exploration and future intelligence theme, such as:
+
+- People working in modern professional environments.
+- Software development, programming, and AI technology.
+- Data science, digital innovation, and technology research.
+- Creative professionals and digital design.
+- Learning, upskilling, and professional development.
+- Emerging industries and future workplaces.
+
+Select images that feel authentic, aspirational, and relevant to different career pathways. Avoid making the slideshow look like an unrelated generic stock-photo gallery.
+
+### Slideshow behavior
+
+- Rotate through multiple career-related images automatically.
+- Use smooth, elegant transitions such as subtle crossfades or gentle sliding effects.
+- Keep the transition timing comfortable and consistent.
+- Avoid flashing, abrupt changes, or distracting motion.
+- If suitable, use subtle image zooming or gentle movement to create depth.
+- Keep the image showcase visually balanced with the hero text on the left.
+- Use appropriate cropping, rounded corners, and subtle glass-like styling.
+- Integrate the slideshow with the transparent glass, rainbow micro-mosaic, and soft 3D visual language.
+
+The photographs should remain the primary content of the card. Do not cover them with effects so strong that the images become difficult to see.
+
+### Implementation requirements
+
+- Reuse suitable existing assets where available.
+- Otherwise, use appropriate career-related images that can load reliably.
+- Ensure the slideshow works on desktop and mobile.
+- Ensure images are cropped correctly at different viewport sizes.
+- Prevent layout shifts while images load.
+- Provide appropriate image descriptions for accessibility.
+- Respect reduced-motion preferences by disabling or simplifying automatic transitions when appropriate.
+- Do not alter unrelated homepage elements.
+
+The final result must be an actual working slideshow, not a static replacement image.
+
+## 11. Add a Dedicated SDGs Introduction Section
+
+The homepage must include a clear, visually integrated introduction to the United Nations Sustainable Development Goals (SDGs) and the mission of the SDC (Sustainably Developing Code) AI Hackathon.
+
+Place the section naturally within the reference homepage's structure. Preserve the reference's visual rhythm while making the SDGs content easy to discover and understand.
+
+### Section title
+
+**About the SDGs & Our Mission**
+
+### Introductory text
+
+"At the SDC (Sustainably Developing Code) AI Hackathon, we believe that great code not only solves today's problems but also helps shape a better future.
+
+More than a technical challenge, this competition encourages participants to address real-world challenges through artificial intelligence, creative thinking, and meaningful innovation. By connecting technology with the United Nations' 17 Sustainable Development Goals (SDGs), we aim to inspire solutions that create lasting social and environmental value."
+
+### Three key themes
+
+**01 — Focus on Real-World Challenges**
+
+"From climate action and clean energy to quality education, good health and well-being, and reduced inequalities, we encourage participants to use technology to address the world's most pressing challenges."
+
+**02 — Empower Sustainability Through Code**
+
+"Transform AI technologies, including large language models, machine learning, and data analytics, into practical digital solutions that create meaningful social value."
+
+**03 — Co-Create a Green and Inclusive Future**
+
+"Bridge the gap between technology and real-world needs. We believe innovation should go beyond technical achievement to serve people, communities, and the sustainable development of our planet."
+
+### Closing statement
+
+"Join us in sparking sustainable innovation with artificial intelligence and building a better tomorrow through technology!"
+
+### SDGs presentation requirements
+
+- Integrate this section into the homepage rather than treating it as an unrelated block.
+- Preserve the meaning of the supplied text while making small adjustments for readability and visual fit.
+- Establish a clear hierarchy between the introduction, three themes, and closing statement.
+- Use authentic United Nations SDG icons or other suitable assets if available and permitted.
+- If official assets are unavailable, use clean, consistent visual representations without inventing official logos.
+- Adapt the reference design's cards, illustrations, or interactive patterns where suitable.
+- Keep the text readable on mobile devices.
+- Use subtle glass and iridescent details without distracting from the content.
+- Clearly identify this as the SDC AI Hackathon's mission. Do not imply that FARAWAY itself is an official United Nations initiative.
+
+## 12. Correct the Career Data Comparison Structure
+
+Inspect the existing career comparison feature, its data model, calculations, charts, and scenario definitions before making changes.
+
+The comparison system must use three distinct scenarios:
+
+1. **Current** — the current baseline scenario.
+2. **Moderate** — the moderate-change future scenario.
+3. **Fast** — the fast-change future scenario.
+
+The system must support exactly these two comparisons:
+
+- **Current vs. Moderate**
+- **Current vs. Fast**
+
+### Comparison logic
+
+**Comparison 1: Current vs. Moderate**
+- Use Current as the baseline.
+- Compare Current scenario values with the corresponding Moderate scenario values.
+- Display the differences and relevant explanations using the correct data.
+
+**Comparison 2: Current vs. Fast**
+- Use Current as the baseline.
+- Compare Current scenario values with the corresponding Fast scenario values.
+- Display the differences and relevant explanations using the correct data.
+
+### Data and interface requirements
+
+- Keep Current, Moderate, and Fast as three separate scenarios.
+- Use Current as the baseline for both comparisons.
+- Make the two comparisons clearly distinguishable in the interface.
+- Ensure charts, labels, calculations, displayed values, and explanatory text correspond to the correct scenario pair.
+- If the interface supports switching between comparisons, ensure the displayed charts and values update correctly when the selected comparison changes.
+- Do not compare Moderate against Fast.
+- Do not accidentally substitute Current vs. Fast with Moderate vs. Fast.
+- Preserve existing data sources, formulas, and working functionality wherever possible.
+- Do not fabricate data, statistics, or future projections.
+- Do not change the underlying formulas without inspecting and understanding the existing implementation first.
+- If the existing data model does not support the two comparisons correctly, update it consistently across the relevant components.
+
+The goal is to ensure that users can clearly understand how the Moderate and Fast scenarios differ from the same Current baseline.
+
+## 13. Functional Requirements
+
+All visible interactive elements must work correctly.
+
+- Navigation links must lead to valid destinations.
+- CTA buttons must perform meaningful actions using existing routes or functionality wherever possible.
+- Do not create misleading buttons that appear functional but do nothing.
+- Preserve existing authentication, skill assessment, career exploration, and other working features.
+- Do not fabricate backend integrations, assessment results, statistics, or AI capabilities.
+- Preserve existing routing and shared components.
+- Ensure the homepage renders without console errors.
+- Ensure the new slideshow and any comparison controls function correctly.
+
+## 14. Technical and Responsive Requirements
+
+- Work within the existing framework and coding conventions.
+- Reuse existing components and assets where appropriate.
+- Avoid unnecessary dependencies.
+- Avoid duplicating components or introducing conflicting CSS.
+- Ensure responsive layouts across desktop, tablet, and mobile.
+- Prevent horizontal overflow, overlapping text, clipped buttons, and broken layouts.
+- Maintain accessible contrast, readable typography, semantic HTML, and keyboard accessibility.
+- Ensure pointer effects do not block clicking, text selection, or scrolling.
+- Prefer efficient transforms and opacity animations where practical.
+- Avoid excessive React state updates during pointer tracking.
+- Clean up event listeners and animation loops properly.
+- Pause or reduce nonessential animation when the page is not visible.
+- Respect `prefers-reduced-motion`.
+- Simplify expensive effects on lower-powered devices.
+- Ensure the website remains attractive and usable when animations are unavailable.
+
+## 15. Scope Control
+
+For this iteration, modify the homepage only, together with the minimum necessary changes to existing shared components or data-comparison logic required to implement the explicitly requested features.
+
+Do not redesign every other page.
+
+Keep internal pages and their current styling and functionality intact as much as possible.
+
+Changes to shared components must not unintentionally break other pages.
+
+Do not introduce unrelated features or rewrite unrelated parts of the application.
+
+## 16. Final Verification
+
+After implementation:
+
+1. Run the actual project and inspect the rendered homepage.
+2. Compare the homepage against the supplied reference layout and visual photos.
+3. Correct major differences in layout, spacing, proportions, typography, and visual hierarchy.
+4. Verify that the exact slogan "Where Possibilities Take You." is used as the primary brand slogan.
+5. Verify that the rainbow micro-mosaic, subtle glass 3D appearance, dynamic lighting, pointer response, and typography render correctly.
+6. Verify that the right-side hero card displays multiple career-related photographs and rotates automatically.
+7. Verify that the SDGs introduction includes the introductory text, all three themes, and the closing statement.
+8. Verify that the career comparison system supports Current vs. Moderate and Current vs. Fast, both using Current as the baseline.
+9. Verify that the charts, labels, values, and calculations correspond to the correct comparisons.
+10. Test the homepage on desktop and mobile.
+11. Test all visible links, buttons, slideshow behavior, and comparison controls.
+12. Check for console errors, missing assets, broken routes, layout shifts, and obvious performance issues.
+13. Make a final refinement pass after testing.
+
+Do not stop after producing a rough mockup or a basic functional page.
+
+The final result should be a polished, working FARAWAY homepage that closely follows the supplied reference files, uses the selected slogan, integrates the SDC AI Hackathon's SDG mission, includes a career-themed rotating photo showcase, and correctly presents the two career scenario comparisons.
+
+When finished, summarize:
+- Which homepage sections were changed.
+- How the reference layout and visual style were applied.
+- Where the SDGs introduction was integrated.
+- How the career photo slideshow works.
+- How Current vs. Moderate and Current vs. Fast are implemented.
+- Which existing features and routes were preserved.
+- Any remaining limitations or items requiring my review.
